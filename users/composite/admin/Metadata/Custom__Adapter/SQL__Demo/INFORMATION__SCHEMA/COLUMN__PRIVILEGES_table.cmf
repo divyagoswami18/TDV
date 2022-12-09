@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="COLUMN_PRIVILEGES" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Demo/INFORMATION_SCHEMA/COLUMN_PRIVILEGES" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="GRANTOR" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GRANTEE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TABLE_CATALOG" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TABLE_SCHEMA" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TABLE_NAME" nullable="false">
+      <datatype name="sysname" extendedName="sysname(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_NAME" nullable="true">
+      <datatype name="sysname" extendedName="sysname(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRIVILEGE_TYPE" nullable="true">
+      <datatype name="varchar" extendedName="varchar(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="IS_GRANTABLE" nullable="true">
+      <datatype name="varchar" extendedName="varchar(3)" subType="DATASOURCE_TYPE" type="STRING" maxLength="3"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418835</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418835</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418835</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

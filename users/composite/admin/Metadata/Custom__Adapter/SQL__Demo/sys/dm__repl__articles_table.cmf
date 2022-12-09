@@ -1,0 +1,213 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_repl_articles" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Demo/sys/dm_repl_articles" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="artcache_db_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artcache_table_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artcache_schema_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artcache_article_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artid" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artfilter" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artobjid" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artpubid" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artstatus" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="arttype" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wszArtdesttable" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wszArtdesttableowner" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wszArtinscmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(258)" subType="DATASOURCE_TYPE" type="STRING" maxLength="258"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cmdTypeIns" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wszArtdelcmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(258)" subType="DATASOURCE_TYPE" type="STRING" maxLength="258"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cmdTypeDel" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wszArtupdcmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(258)" subType="DATASOURCE_TYPE" type="STRING" maxLength="258"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cmdTypeUpd" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wszArtpartialupdcmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(258)" subType="DATASOURCE_TYPE" type="STRING" maxLength="258"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cmdTypePartialUpd" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="numcol" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artcmdtype" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artgeninscmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artgendelcmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artgenupdcmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artpartialupdcmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artupdtxtcmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artgenins2cmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="artgendel2cmd" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fInReconcile" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fPubAllowUpdate" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="intPublicationOptions" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418636</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418636</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418636</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

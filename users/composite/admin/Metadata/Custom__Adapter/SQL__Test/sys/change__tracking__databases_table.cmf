@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="change_tracking_databases" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Test/sys/change_tracking_databases" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="database_id" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="is_auto_cleanup_on" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="retention_period" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="retention_period_units" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="retention_period_units_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(60)" subType="DATASOURCE_TYPE" type="STRING" maxLength="60"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="max_cleanup_version" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419072</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419072</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419072</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

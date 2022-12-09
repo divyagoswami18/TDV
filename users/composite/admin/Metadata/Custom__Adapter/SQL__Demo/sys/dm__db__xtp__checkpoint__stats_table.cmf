@@ -1,0 +1,291 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_db_xtp_checkpoint_stats" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Demo/sys/dm_db_xtp_checkpoint_stats" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="last_lsn_processed" nullable="true">
+      <datatype name="numeric" extendedName="numeric(25,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="25" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="end_of_log_lsn" nullable="true">
+      <datatype name="numeric" extendedName="numeric(25,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="25" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bytes_to_end_of_log" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="log_consumption_rate" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="active_scan_time_in_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="total_wait_time_in_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="waits_for_io_count" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="io_wait_time_in_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="waits_for_new_log_count" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="new_log_wait_time_in_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="idle_attempts_count" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="tx_segments_dispatched_count" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="segment_bytes_dispatched" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bytes_serialized" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="serializer_user_time_in_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="serializer_kernel_time_in_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="xtp_log_bytes_consumed" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="checkpoints_closed" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="last_closed_checkpoint_ts" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="hardened_recovery_lsn" nullable="true">
+      <datatype name="numeric" extendedName="numeric(25,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="25" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="hardened_root_file_guid" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="hardened_root_file_watermark" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="hardened_truncation_lsn" nullable="true">
+      <datatype name="numeric" extendedName="numeric(25,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="25" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="log_bytes_since_last_close" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="time_since_last_close_in_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="current_checkpoint_id" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="current_checkpoint_segment_count" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="recovery_lsn_candidate" nullable="true">
+      <datatype name="numeric" extendedName="numeric(25,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="25" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="outstanding_checkpoint_count" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="closing_checkpoint_id" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="recovery_checkpoint_id" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="recovery_checkpoint_ts" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bootstrap_recovery_lsn" nullable="true">
+      <datatype name="numeric" extendedName="numeric(25,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="25" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bootstrap_root_file_guid" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="internal_error_code" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="tail_cache_page_count" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="tail_cache_max_page_count" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="tail_cache_min_needed_lsn" nullable="true">
+      <datatype name="numeric" extendedName="numeric(25,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="25" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="merge_outstanding_merges" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="merge_stats_number_of_merges" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="merge_stats_log_blocks_merged" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="merge_stats_bytes_merged" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="merge_stats_user_time" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="merge_stats_kernel_time" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bytes_of_large_data_serialized" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418632</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418632</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418632</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

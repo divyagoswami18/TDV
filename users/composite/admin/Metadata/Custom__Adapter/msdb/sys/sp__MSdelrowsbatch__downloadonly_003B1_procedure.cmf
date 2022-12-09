@@ -1,0 +1,334 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="sp_MSdelrowsbatch_downloadonly;1" path="/users/composite/admin/Metadata/Custom_Adapter/msdb/sys/sp_MSdelrowsbatch_downloadonly;1" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="@RETURN_VALUE" direction="RETURN" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@pubid" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@tablenick" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@check_permission" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@rows_tobe_deleted" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@rowguid1" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid2" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid3" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid4" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid5" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid6" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid7" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid8" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid9" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid10" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid11" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid12" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid13" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid14" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid15" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid16" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid17" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid18" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid19" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid20" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid21" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid22" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid23" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid24" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid25" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid26" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid27" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid28" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid29" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid30" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid31" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid32" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid33" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid34" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid35" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid36" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid37" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid38" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid39" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid40" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid41" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid42" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid43" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid44" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid45" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid46" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid47" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid48" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid49" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid50" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid51" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid52" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid53" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid54" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid55" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid56" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid57" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid58" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid59" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid60" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid61" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid62" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid63" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid64" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid65" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid66" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid67" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid68" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid69" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid70" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid71" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid72" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid73" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid74" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid75" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid76" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid77" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid78" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid79" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid80" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid81" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid82" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid83" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid84" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid85" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid86" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid87" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid88" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid89" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid90" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid91" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid92" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid93" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid94" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid95" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid96" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid97" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid98" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid99" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+    <parameter name="@rowguid100" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419260</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419260</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419260</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

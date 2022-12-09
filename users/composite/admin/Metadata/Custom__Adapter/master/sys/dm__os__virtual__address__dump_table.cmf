@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_os_virtual_address_dump" path="/users/composite/admin/Metadata/Custom_Adapter/master/sys/dm_os_virtual_address_dump" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="region_base_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="region_allocation_base_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="region_allocation_protection" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="region_size_in_bytes" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="region_state" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="region_current_protection" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="region_type" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419375</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419375</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419375</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_os_worker_local_storage" path="/users/composite/admin/Metadata/Custom_Adapter/tempdb/sys/dm_os_worker_local_storage" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="worker_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="comp_exec_ctxt_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ec_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="broker_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="task_proxy_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="msqlxact_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sql_prof_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="stack_checker_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="host_task_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sni_error_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="queryscan_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="diag_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="query_driver_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="federatedxact_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="filestream_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="qe_cc_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="xtp_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="gq_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="extensibility_ctxt_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418958</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418958</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418958</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

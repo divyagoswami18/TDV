@@ -1,0 +1,99 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="index_resumable_operations" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Test/sys/index_resumable_operations" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="object_id" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="index_id" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="name" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sql_text" nullable="true">
+      <datatype name="ntext" extendedName="ntext(1073741823)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1073741823"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="last_max_dop_used" nullable="false">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="partition_number" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="state" nullable="false">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="state_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(60)" subType="DATASOURCE_TYPE" type="STRING" maxLength="60"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="start_time" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="last_pause_time" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="total_execution_time" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="percent_complete" nullable="false">
+      <datatype name="float" extendedName="float" subType="DATASOURCE_TYPE" type="FLOAT" minValue="1.1754943508222875E-38" maxValue="3.4028234663852886E38"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="page_count" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419075</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419075</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419075</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

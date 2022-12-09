@@ -1,0 +1,105 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_hpc_device_stats" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Test/sys/dm_hpc_device_stats" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="device_logical_id" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="device_type" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="device_provider" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="device_physical_id" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="version" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="compute_units" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="max_thread_proxies" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="clock_frequency" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="device_memory_bytes" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rows_handled" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cycles_used" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="device_to_host_bytes" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="host_to_device_bytes" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="device_ready" nullable="false">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419073</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419073</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419073</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

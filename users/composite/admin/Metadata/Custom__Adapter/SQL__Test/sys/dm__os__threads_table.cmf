@@ -1,0 +1,177 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_os_threads" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Test/sys/dm_os_threads" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="thread_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="started_by_sqlservr" nullable="false">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="os_thread_id" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="status" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="instruction_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="creation_time" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="kernel_time" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="usermode_time" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="stack_base_address" nullable="false">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="stack_end_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="stack_bytes_committed" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="stack_bytes_used" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="affinity" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="priority" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="locale" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="token" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="is_impersonating" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="is_waiting_on_loader_lock" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fiber_data" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="thread_handle" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="event_handle" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="scheduler_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="worker_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fiber_context_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="self_address" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(8)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="processor_group" nullable="false">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419074</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419074</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419074</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

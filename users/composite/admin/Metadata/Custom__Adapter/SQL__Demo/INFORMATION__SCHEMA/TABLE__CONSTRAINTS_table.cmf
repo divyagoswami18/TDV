@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="TABLE_CONSTRAINTS" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Demo/INFORMATION_SCHEMA/TABLE_CONSTRAINTS" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CONSTRAINT_CATALOG" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CONSTRAINT_SCHEMA" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CONSTRAINT_NAME" nullable="false">
+      <datatype name="sysname" extendedName="sysname(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TABLE_CATALOG" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TABLE_SCHEMA" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TABLE_NAME" nullable="true">
+      <datatype name="sysname" extendedName="sysname(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CONSTRAINT_TYPE" nullable="true">
+      <datatype name="varchar" extendedName="varchar(11)" subType="DATASOURCE_TYPE" type="STRING" maxLength="11"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="IS_DEFERRABLE" nullable="false">
+      <datatype name="varchar" extendedName="varchar(2)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="INITIALLY_DEFERRED" nullable="false">
+      <datatype name="varchar" extendedName="varchar(2)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418835</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418835</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418835</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

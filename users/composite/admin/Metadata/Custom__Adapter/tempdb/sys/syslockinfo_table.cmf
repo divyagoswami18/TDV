@@ -1,0 +1,129 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="syslockinfo" path="/users/composite/admin/Metadata/Custom_Adapter/tempdb/sys/syslockinfo" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="rsc_text" nullable="false">
+      <datatype name="nchar" extendedName="nchar(32)" subType="DATASOURCE_TYPE" type="STRING" minLength="32" maxLength="32"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rsc_bin" nullable="false">
+      <datatype name="binary" extendedName="binary(16)" subType="DATASOURCE_TYPE" type="BINARY" minLength="16" maxLength="16"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rsc_valblk" nullable="false">
+      <datatype name="binary" extendedName="binary(16)" subType="DATASOURCE_TYPE" type="BINARY" minLength="16" maxLength="16"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rsc_dbid" nullable="false">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rsc_indid" nullable="false">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rsc_objid" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rsc_type" nullable="false">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rsc_flag" nullable="false">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_mode" nullable="false">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_status" nullable="false">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_refcnt" nullable="false">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_cryrefcnt" nullable="false">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_lifetime" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_spid" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_ecid" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_ownertype" nullable="false">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_transactionID" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="req_transactionUOW" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418962</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418962</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418962</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

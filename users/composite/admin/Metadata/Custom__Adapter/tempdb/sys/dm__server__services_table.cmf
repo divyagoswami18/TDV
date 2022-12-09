@@ -1,0 +1,93 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_server_services" path="/users/composite/admin/Metadata/Custom_Adapter/tempdb/sys/dm_server_services" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="servicename" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="startup_type" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="startup_type_desc" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="status" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="status_desc" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="process_id" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="last_startup_time" nullable="true">
+      <datatype name="datetimeoffset" extendedName="datetimeoffset(34)" subType="DATASOURCE_TYPE" type="STRING" maxLength="34"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="service_account" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="filename" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="is_clustered" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cluster_nodename" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="instant_file_initialization_enabled" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418958</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418958</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418958</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

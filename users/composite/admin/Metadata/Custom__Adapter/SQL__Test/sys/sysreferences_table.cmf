@@ -1,0 +1,267 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="sysreferences" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Test/sys/sysreferences" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="constid" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkeyid" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkeyid" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkeyindid" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="keycnt" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="forkeys" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(32)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="32"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="refkeys" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(32)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="32"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkeydbid" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkeydbid" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey1" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey2" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey3" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey4" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey5" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey6" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey7" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey8" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey9" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey10" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey11" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey12" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey13" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey14" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey15" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fkey16" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey1" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey2" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey3" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey4" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey5" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey6" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey7" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey8" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey9" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey10" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey11" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey12" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey13" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey14" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey15" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rkey16" nullable="true">
+      <datatype name="smallint" extendedName="smallint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419077</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419077</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419077</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

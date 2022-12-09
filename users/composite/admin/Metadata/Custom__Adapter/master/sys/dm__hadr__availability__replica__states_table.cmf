@@ -1,0 +1,129 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_hadr_availability_replica_states" path="/users/composite/admin/Metadata/Custom_Adapter/master/sys/dm_hadr_availability_replica_states" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="replica_id" nullable="false">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="group_id" nullable="false">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="is_local" nullable="false">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="role" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="role_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(60)" subType="DATASOURCE_TYPE" type="STRING" maxLength="60"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="operational_state" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="operational_state_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(60)" subType="DATASOURCE_TYPE" type="STRING" maxLength="60"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="connected_state" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="connected_state_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(60)" subType="DATASOURCE_TYPE" type="STRING" maxLength="60"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="recovery_health" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="recovery_health_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(60)" subType="DATASOURCE_TYPE" type="STRING" maxLength="60"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="synchronization_health" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="synchronization_health_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(60)" subType="DATASOURCE_TYPE" type="STRING" maxLength="60"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="last_connect_error_number" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="last_connect_error_description" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(1024)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1024"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="last_connect_error_timestamp" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="write_lease_remaining_ticks" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="current_configuration_commit_start_time_utc" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419374</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419374</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419374</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

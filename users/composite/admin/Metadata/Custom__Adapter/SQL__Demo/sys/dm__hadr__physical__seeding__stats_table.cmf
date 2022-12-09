@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="dm_hadr_physical_seeding_stats" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Demo/sys/dm_hadr_physical_seeding_stats" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="local_physical_seeding_id" nullable="false">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="remote_physical_seeding_id" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier" subType="DATASOURCE_TYPE" type="OTHER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="local_database_id" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="local_database_name" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="remote_machine_name" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="role_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="internal_state_desc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="transfer_rate_bytes_per_second" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="transferred_size_bytes" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="database_size_bytes" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="start_time_utc" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="end_time_utc" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="estimate_time_complete_utc" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="total_disk_io_wait_time_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="total_network_wait_time_ms" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="failure_code" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="failure_message" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="failure_time_utc" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="is_compression_enabled" nullable="true">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418634</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418634</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418634</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

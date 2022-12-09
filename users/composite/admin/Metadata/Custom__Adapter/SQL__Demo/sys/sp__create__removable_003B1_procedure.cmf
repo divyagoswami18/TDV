@@ -1,0 +1,187 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="sp_create_removable;1" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Demo/sys/sp_create_removable;1" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="@RETURN_VALUE" direction="RETURN" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@dbname" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@syslogical" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@sysphysical" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@syssize" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@loglogical" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@logphysical" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@logsize" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical1" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical1" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize1" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical2" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical2" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize2" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical3" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical3" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize3" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical4" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical4" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize4" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical5" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical5" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize5" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical6" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical6" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize6" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical7" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical7" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize7" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical8" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical8" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize8" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical9" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical9" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize9" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical10" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical10" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize10" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical11" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical11" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize11" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical12" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical12" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize12" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical13" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical13" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize13" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical14" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical14" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize14" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical15" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical15" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize15" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@datalogical16" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dataphysical16" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(520)" subType="DATASOURCE_TYPE" type="STRING" maxLength="520"/>
+    </parameter>
+    <parameter name="@datasize16" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418819</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418819</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418819</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

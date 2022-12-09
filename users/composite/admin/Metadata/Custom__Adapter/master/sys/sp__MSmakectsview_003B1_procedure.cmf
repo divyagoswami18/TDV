@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="sp_MSmakectsview;1" path="/users/composite/admin/Metadata/Custom_Adapter/master/sys/sp_MSmakectsview;1" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="@RETURN_VALUE" direction="RETURN" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@publication" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@ctsview" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dynamic_snapshot_views_table_name" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@create_dynamic_views" direction="IN" nullable="true">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+    </parameter>
+    <parameter name="@max_bcp_gen" direction="IN" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110419406</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110419406</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110419406</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

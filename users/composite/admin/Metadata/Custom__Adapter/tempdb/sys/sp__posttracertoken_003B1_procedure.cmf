@@ -1,0 +1,31 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="sp_posttracertoken;1" path="/users/composite/admin/Metadata/Custom_Adapter/tempdb/sys/sp_posttracertoken;1" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="@RETURN_VALUE" direction="RETURN" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@publication" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@tracer_token_id" direction="INOUT" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@publisher" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418992</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418992</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418992</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

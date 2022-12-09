@@ -1,0 +1,109 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="sp_changesubstatus;1" path="/users/composite/admin/Metadata/Custom_Adapter/SQL_Demo/sys/sp_changesubstatus;1" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="@RETURN_VALUE" direction="RETURN" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@publication" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@article" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@subscriber" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@status" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@previous_status" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@destination_db" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@frequency_type" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@frequency_interval" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@frequency_relative_interval" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@frequency_recurrence_factor" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@frequency_subday" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@frequency_subday_interval" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@active_start_time_of_day" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@active_end_time_of_day" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@active_start_date" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@active_end_date" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@optional_command_line" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(8000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="8000"/>
+    </parameter>
+    <parameter name="@distribution_jobid" direction="INOUT" nullable="true">
+      <datatype name="binary" extendedName="binary(16)" subType="DATASOURCE_TYPE" type="BINARY" minLength="16" maxLength="16"/>
+    </parameter>
+    <parameter name="@from_auto_sync" direction="IN" nullable="true">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+    </parameter>
+    <parameter name="@ignore_distributor" direction="IN" nullable="true">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+    </parameter>
+    <parameter name="@offloadagent" direction="IN" nullable="true">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+    </parameter>
+    <parameter name="@offloadserver" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dts_package_name" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@dts_package_password" direction="IN" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(1048)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1048"/>
+    </parameter>
+    <parameter name="@dts_package_location" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@skipobjectactivation" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@distribution_job_name" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@publisher" direction="IN" nullable="true">
+      <datatype name="sysname" extendedName="sysname(256)" subType="DATASOURCE_TYPE" type="STRING" maxLength="256"/>
+    </parameter>
+    <parameter name="@ignore_distributor_failure" direction="IN" nullable="true">
+      <datatype name="bit" extendedName="bit" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1669110418819</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418819</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418819</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>

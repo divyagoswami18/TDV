@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="sys" path="/users/composite/admin/Metadata/Custom_Adapter/tempdb/sys" type="CONTAINER" subtype="SCHEMA" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="autoAddChildren" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1669110418860</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669110418860</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669110418860</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+</metadata>
