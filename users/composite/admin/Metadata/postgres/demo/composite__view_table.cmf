@@ -1,0 +1,164 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="composite_view" path="/users/composite/admin/Metadata/postgres/demo/composite_view" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="cachekey" nullable="false">
+      <datatype name="int4" extendedName="int4" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OrderID" nullable="true">
+      <datatype name="int4" extendedName="int4" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ProductID" nullable="true">
+      <datatype name="int4" extendedName="int4" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Discount" nullable="true">
+      <datatype name="numeric" extendedName="numeric(12,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OrderDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CompanyName" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CustomerContactFirstName" nullable="true">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CustomerContactLastName" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CustomerContactPhone" nullable="true">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ProductName" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32768)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32768"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TransactionID" nullable="true">
+      <datatype name="int4" extendedName="int4" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DateRequired" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DatePromised" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ShipDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SupplierID" nullable="true">
+      <datatype name="int4" extendedName="int4" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SupplierName" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SupplierContactName" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SupplierPhoneNumber" nullable="true">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1670570239480</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1670570239480</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1670570239480</attribute>
+</metadata>
