@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="Azure Synapse" path="/users/composite/admin/Metadata/Azure Synapse" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="LowerBoundForDataShip" type="LONG">50000</attribute>
+  <attribute name="UpperBoundForDataShip" type="LONG">5000000</attribute>
+  <attribute name="allDatabases" type="BOOLEAN">false</attribute>
+  <attribute name="authentication" type="STRING">BASIC</attribute>
+  <attribute name="collationSensitive" type="BOOLEAN">false</attribute>
+  <attribute name="commitOnFetchDone" type="BOOLEAN">false</attribute>
+  <attribute name="concurrentRequestLimit" type="INTEGER">0</attribute>
+  <attribute name="connPoolMaxSize" type="INTEGER">100</attribute>
+  <attribute name="connPoolMinSize" type="INTEGER">0</attribute>
+  <attribute name="connPoolTimeout" type="INTEGER">30</attribute>
+  <attribute name="connProperties" type="MAP"></attribute>
+  <attribute name="connStaleTimeout" type="INTEGER">60</attribute>
+  <attribute name="creationDate" type="LONG">1663666312960</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="dataShipTempTablePrefix" type="STRING">T</attribute>
+  <attribute name="driverName" type="STRING">Microsoft SQL Server 2019</attribute>
+  <attribute name="execTimeout" type="INTEGER">0</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1663666312960</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="login" type="STRING">sqladminuser</attribute>
+  <attribute name="maxNumberForOrSyntax" type="INTEGER">2147483647</attribute>
+  <attribute name="maxSourceSideCardinalityForSJ" type="STRING"/>
+  <attribute name="maximumContainerDepth" type="INTEGER">2</attribute>
+  <attribute name="minTargetToSourceRatioForSJ" type="STRING"/>
+  <attribute name="name" type="STRING">Azure Synapse</attribute>
+  <attribute name="nativeDataLoadingEnabled" type="BOOLEAN">true</attribute>
+  <attribute name="noReturnParam" type="BOOLEAN">false</attribute>
+  <attribute name="password" type="PASSWORD_STRING">ENC(mgDWzzC0nKI/dDFjH1y3ig==$/b/MauGaOsbsaSX/SAV28g==)</attribute>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1663666312960</attribute>
+  <attribute name="selectMode" type="STRING">Direct</attribute>
+  <attribute name="sqlserverEnableBcp" type="BOOLEAN">false</attribute>
+  <attribute name="supportsDataship" type="BOOLEAN">false</attribute>
+  <attribute name="supportsDatashipAsTarget" type="BOOLEAN">false</attribute>
+  <attribute name="supportsStarSchema" type="BOOLEAN">false</attribute>
+  <attribute name="txnIsolationLevel" type="STRING">Read Committed</attribute>
+  <attribute name="type" type="STRING">SqlServer</attribute>
+  <attribute name="urlDatabaseName" type="STRING">GIC_Unify</attribute>
+  <attribute name="urlIP" type="STRING">gicunify-ondemand.sql.azuresynapse.net</attribute>
+  <attribute name="urlPatternStr" type="STRING">jdbc:sqlserver://&lt;HOST&gt;:&lt;PORT&gt;;databaseName=&lt;DATABASE_NAME&gt;;selectMethod=&lt;SELECT_MODE&gt;</attribute>
+  <attribute name="urlPort" type="INTEGER">1433</attribute>
+  <attribute name="useQuotesForTableIdentifierInBCP" type="BOOLEAN">false</attribute>
+  <attribute name="useTrustedConnectionWithBCP" type="BOOLEAN">false</attribute>
+</metadata>
