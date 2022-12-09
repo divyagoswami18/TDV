@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="Dynamo" path="/users/composite/admin/Metadata/Dynamo" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="OAuthConfig" type="NULL"/>
+  <attribute name="alternateSecurityProperties" type="STRING">oauthaccesstoken</attribute>
+  <attribute name="authscheme" type="STRING">Auto</attribute>
+  <attribute name="autodetectindex" type="BOOLEAN">true</attribute>
+  <attribute name="awsaccesskey" type="PASSWORD_STRING">ENC(9mXb2WfMlE9VEfbUkFO9Xw==$5B542aK+SVa206gDg2ajfQP5LIlidw5h4jEVVC4fUwY=)</attribute>
+  <attribute name="awscredentialsfile" type="STRING"/>
+  <attribute name="awscredentialsfileprofile" type="STRING">default</attribute>
+  <attribute name="awsexternalid" type="STRING">arn:aws:dynamodb:us-east-1:985374822262:table/order</attribute>
+  <attribute name="awsregion" type="STRING">NORTHERNVIRGINIA</attribute>
+  <attribute name="awsrolearn" type="STRING">arn:aws:iam::985374822262:role/TIBCO/Administrator</attribute>
+  <attribute name="awssecretkey" type="PASSWORD_STRING">ENC(j/296yIKHkYKA6SWQ2du6g==$iu3K/Z10xxTDvsv+JvDfsjoYQipQd+DMcMa19HeuOe8B7C6Gh+oPPoLwUTIRza1L)</attribute>
+  <attribute name="awssessiontoken" type="STRING"/>
+  <attribute name="buffersize" type="STRING">20000</attribute>
+  <attribute name="cacheStatusAndTrackingDS" type="STRING"/>
+  <attribute name="commitOnFetchDone" type="BOOLEAN">true</attribute>
+  <attribute name="connCheckOutProcedure" type="STRING"/>
+  <attribute name="connPoolMaxSize" type="INTEGER">100</attribute>
+  <attribute name="connPoolMinSize" type="INTEGER">0</attribute>
+  <attribute name="connPoolTimeout" type="INTEGER">30</attribute>
+  <attribute name="connStaleTimeout" type="INTEGER">60</attribute>
+  <attribute name="connValidateQuery" type="STRING"/>
+  <attribute name="creationDate" type="LONG">1663843346405</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="credentialslocation" type="STRING">%APPDATA%\CData\AmazonDynamoDB Data Provider\CredentialsFile.txt</attribute>
+  <attribute name="domain" type="STRING">amazonaws.com</attribute>
+  <attribute name="driverName" type="STRING">Amazon DynamoDB</attribute>
+  <attribute name="ds.conn_checkout_timeout" type="INTEGER">45</attribute>
+  <attribute name="execTimeout" type="INTEGER">0</attribute>
+  <attribute name="firewallpassword" type="STRING"/>
+  <attribute name="firewallport" type="INTEGER">0</attribute>
+  <attribute name="firewallserver" type="STRING"/>
+  <attribute name="firewalltype" type="STRING">NONE</attribute>
+  <attribute name="firewalluser" type="STRING"/>
+  <attribute name="flattenarrays" type="STRING"/>
+  <attribute name="flattenobjects" type="BOOLEAN">true</attribute>
+  <attribute name="generateschemafiles" type="STRING">Never</attribute>
+  <attribute name="insertmode" type="STRING">REPLACE</attribute>
+  <attribute name="isEnabled" type="BOOLEAN">true</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="jdbcds.comparisons_case_insensitive" type="BOOLEAN">false</attribute>
+  <attribute name="jdbcds.ignore_case_sensitivity_mismatch" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.ignore_trailing_spaces_mismatch" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.no_support_query_timeout" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.trailing_spaces_included_in_comparison" type="BOOLEAN">true</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1663843453491</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="location" type="STRING">%APPDATA%\CData\AmazonDynamoDB Data Provider\Schema</attribute>
+  <attribute name="logmodules" type="STRING"/>
+  <attribute name="maximumrequestretries" type="STRING">4</attribute>
+  <attribute name="maxrows" type="INTEGER">-1</attribute>
+  <attribute name="mfaserialnumber" type="STRING"/>
+  <attribute name="mfatoken" type="STRING"/>
+  <attribute name="name" type="STRING">Dynamo</attribute>
+  <attribute name="numbercolumnmode" type="STRING">DOUBLE</attribute>
+  <attribute name="other" type="STRING"/>
+  <attribute name="pagesize" type="INTEGER">-1</attribute>
+  <attribute name="proxyauthscheme" type="STRING">BASIC</attribute>
+  <attribute name="proxyautodetect" type="BOOLEAN">true</attribute>
+  <attribute name="proxyexceptions" type="STRING"/>
+  <attribute name="proxypassword" type="STRING"/>
+  <attribute name="proxyport" type="INTEGER">80</attribute>
+  <attribute name="proxyserver" type="STRING"/>
+  <attribute name="proxyssltype" type="STRING">AUTO</attribute>
+  <attribute name="proxyuser" type="STRING"/>
+  <attribute name="readonly" type="BOOLEAN">false</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1663843346405</attribute>
+  <attribute name="retrywaittime" type="STRING">2000</attribute>
+  <attribute name="rowscandepth" type="INTEGER">50</attribute>
+  <attribute name="separatorcharacter" type="STRING">.</attribute>
+  <attribute name="sslservercert" type="STRING"/>
+  <attribute name="temporarytokenduration" type="STRING">3600</attribute>
+  <attribute name="threadcount" type="STRING">4</attribute>
+  <attribute name="timeout" type="INTEGER">60</attribute>
+  <attribute name="txnIsolationLevel" type="STRING">Read Committed</attribute>
+  <attribute name="type" type="STRING">cloud_nosql</attribute>
+  <attribute name="typedetectionscheme" type="STRING">RowScan</attribute>
+  <attribute name="url" type="STRING">AmazonDynamoDB</attribute>
+  <attribute name="useconsistentreads" type="BOOLEAN">false</attribute>
+  <attribute name="usesimplenames" type="BOOLEAN">false</attribute>
+</metadata>
